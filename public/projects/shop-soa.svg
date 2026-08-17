@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" width="1200" height="750">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#022c22"/>
+      <stop offset="1" stop-color="#064e3b"/>
+    </linearGradient>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#4f46e5"/>
+      <stop offset="1" stop-color="#7c3aed"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="750" fill="url(#bg)"/>
+  <g font-family="ui-sans-serif, system-ui, sans-serif">
+    <text x="48" y="90" font-size="44" font-weight="700" fill="#ecfdf5">Shop SOA</text>
+    <text x="48" y="130" font-size="20" fill="#a7f3d0">Distributed service-oriented grocery platform</text>
+  </g>
+  <g>
+    <rect x="480" y="280" width="240" height="120" rx="12" fill="#10b981" opacity="0.95"/>
+    <text x="600" y="335" font-size="20" font-weight="700" fill="#022c22" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif">API Gateway</text>
+    <text x="600" y="368" font-size="14" fill="#022c22" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif">gRPC / REST</text>
+  </g>
+  <g fill="#0f172a" opacity="0.95">
+    <rect x="80" y="480" width="200" height="100" rx="12"/>
+    <text x="180" y="525" font-size="18" font-weight="700" fill="#ecfdf5" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif">Auth</text>
+    <text x="180" y="555" font-size="12" fill="#a7f3d0" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif">JWT · OAuth</text>
+
+    <rect x="340" y="480" width="200" height="100" rx="12"/>
+    <text x="440" y="525" font-size="18" font-weight="700" fill="#ecfdf5" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif">Inventory</text>
+    <text x="440" y="555" font-size="12" fill="#a7f3d0" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif">Postgres</text>
+
+    <rect x="600" y="480" width="200" height="100" rx="12"/>
+    <text x="700" y="525" font-size="18" font-weight="700" fill="#ecfdf5" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif">Orders</text>
+    <text x="700" y="555" font-size="12" fill="#a7f3d0" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif">Event Bus</text>
+
+    <rect x="860" y="480" width="200" height="100" rx="12"/>
+    <text x="960" y="525" font-size="18" font-weight="700" fill="#ecfdf5" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif">Payments</text>
+    <text x="960" y="555" font-size="12" fill="#a7f3d0" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif">Stripe</text>
+
+    <rect x="1120" y="480" width="60" height="100" rx="12" fill="url(#brand)" opacity="0.9"/>
+  </g>
+  <g stroke="#34d399" stroke-width="2" fill="none" opacity="0.6">
+    <path d="M520 400 C 400 440, 220 460, 180 480"/>
+    <path d="M560 400 C 500 440, 460 460, 440 480"/>
+    <path d="M600 400 L 700 480"/>
+    <path d="M680 400 C 760 440, 900 460, 960 480"/>
+  </g>
+</svg>

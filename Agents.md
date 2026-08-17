@@ -21,3 +21,14 @@ Use react-router-dom only if adding a dedicated blog/projects detail page; other
 Store project data in a projects.ts config file for easy editing.
 Add a custom 404 page if using routing.
 Include a README.md with setup instructions and a section on how to customize content.
+
+
+This is my github: https://github.com/blaxpyda
+
+Tools i used
+Frontend: React, Ts, Js, Kotlin
+Backend: Go, Postgres, Rust, Python
+Tools: Git, Postman, Docker, Bruno
+Design: Excalidraw, Figma, Drawio
+
+

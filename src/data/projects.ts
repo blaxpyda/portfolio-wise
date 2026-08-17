@@ -1,4 +1,4 @@
-export type ProjectCategory = "Web" | "Mobile" | "AI";
+export type ProjectCategory = "Web" | "Mobile" | "AI" | "Backend";
 
 export interface Project {
   id: string;
@@ -15,76 +15,62 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    id: "atlas",
-    title: "Atlas Analytics",
+    id: "kline-chart",
+    title: "Kline Chart",
     description:
-      "A real-time product analytics dashboard with sub-second queries over billions of events.",
-    thumbnail:
-      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=70",
+      "A TradingView-style candlestick charting implementation with real-time market data and technical indicators.",
+    longDescription:
+      "A from-scratch financial charting library delivering TradingView-grade interactivity — zooming, crosshairs, drawing tools, and live tick updates — built for low-latency market dashboards.",
+    thumbnail: "/projects/kline-chart.svg",
     category: "Web",
-    techStack: ["React", "TypeScript", "ClickHouse", "Tailwind"],
-    liveUrl: "https://example.com/atlas",
-    repoUrl: "https://github.com/yourname/atlas",
+    techStack: ["TypeScript", "React", "Canvas", "WebSocket"],
+    repoUrl: "https://github.com/blaxpyda/kline-chart",
     featured: true,
   },
   {
-    id: "pulse",
-    title: "Pulse",
+    id: "trust-shop",
+    title: "Trust Shop",
     description:
-      "A native-feeling habit tracker for iOS with streaks, reminders, and a delightful widget.",
-    thumbnail:
-      "https://images.unsplash.com/photo-1512941937669-90a87b14600d?auto=format&fit=crop&w=1200&q=70",
+      "A grocery storefront with cart, checkout, and product catalogue — fast, responsive, and mobile-friendly.",
+    thumbnail: "/projects/trust-shop.svg",
+    category: "Web",
+    techStack: ["TypeScript", "React", "Tailwind"],
+    liveUrl: "https://trust-shop-delta.vercel.app",
+    repoUrl: "https://github.com/blaxpyda/trust-shop",
+    featured: true,
+  },
+  {
+    id: "shop-soa",
+    title: "Shop SOA",
+    description:
+      "A distributed, service-oriented grocery platform — decomposed into independently deployable microservices.",
+    longDescription:
+      "An end-to-end distributed systems take on e-commerce: services communicate over gRPC/REST, with shared auth, inventory, and order domains built for resilience and horizontal scaling.",
+    thumbnail: "/projects/shop-soa.svg",
+    category: "Backend",
+    techStack: ["Go", "Postgres", "Docker", "gRPC"],
+    repoUrl: "https://github.com/blaxpyda/shop-soa",
+    featured: true,
+  },
+  {
+    id: "agent-srs",
+    title: "Agent SRS",
+    description:
+      "An AI agent that reads your idea and produces a complete Software Requirements Specification document.",
+    thumbnail: "/projects/agent-srs.svg",
+    category: "AI",
+    techStack: ["Python", "LLM", "Prompt Engineering"],
+    repoUrl: "https://github.com/blaxpyda/agent-srs",
+  },
+  {
+    id: "mobile-bot",
+    title: "Mobile Bot",
+    description:
+      "A Kotlin mobile UI for a trading bot — live positions, order management, and real-time market streams.",
+    thumbnail: "/projects/mobile-bot.svg",
     category: "Mobile",
-    techStack: ["React Native", "Expo", "Reanimated"],
-    liveUrl: "https://example.com/pulse",
-    repoUrl: "https://github.com/yourname/pulse",
-  },
-  {
-    id: "summarist",
-    title: "Summarist",
-    description:
-      "An AI research assistant that summarizes long papers and answers questions with citations.",
-    thumbnail:
-      "https://images.unsplash.com/photo-1620712940545-7351b00af470?auto=format&fit=crop&w=1200&q=70",
-    category: "AI",
-    techStack: ["Next.js", "OpenAI", "pgvector", "tRPC"],
-    liveUrl: "https://example.com/summarist",
-    repoUrl: "https://github.com/yourname/summarist",
-    featured: true,
-  },
-  {
-    id: "cadence",
-    title: "Cadence UI",
-    description:
-      "An open-source headless component library built on React Aria with full keyboard support.",
-    thumbnail:
-      "https://images.unsplash.com/photo-1555066931-4365b8a90c33?auto=format&fit=crop&w=1200&q=70",
-    category: "Web",
-    techStack: ["React", "TypeScript", "React Aria"],
-    repoUrl: "https://github.com/yourname/cadence-ui",
-  },
-  {
-    id: "drift",
-    title: "Drift",
-    description:
-      "A minimalist markdown note app with end-to-end sync and a vim-style command palette.",
-    thumbnail:
-      "https://images.unsplash.com/photo-1455390582262-454a47e1d117?auto=format&fit=crop&w=1200&q=70",
-    category: "Web",
-    techStack: ["Vite", "IndexedDB", "Yjs"],
-    liveUrl: "https://example.com/drift",
-    repoUrl: "https://github.com/yourname/drift",
-  },
-  {
-    id: "vision",
-    title: "Vision Board",
-    description:
-      "An on-device computer vision playground for object detection and image segmentation.",
-    thumbnail:
-      "https://images.unsplash.com/photo-1550745115-aa3b890d0a02?auto=format&fit=crop&w=1200&q=70",
-    category: "AI",
-    techStack: ["TensorFlow.js", "WebGL", "React"],
-    repoUrl: "https://github.com/yourname/vision-board",
+    techStack: ["Kotlin", "Android", "Coroutines"],
+    repoUrl: "https://github.com/blaxpyda/mobile-bot",
   },
 ];
 
@@ -93,4 +79,5 @@ export const projectCategories: ("All" | ProjectCategory)[] = [
   "Web",
   "Mobile",
   "AI",
+  "Backend",
 ];

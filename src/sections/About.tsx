@@ -20,7 +20,7 @@ export default function About() {
             <div className="absolute -inset-3 -z-10 rounded-3xl bg-gradient-to-tr from-brand-500/30 via-fuchsia-500/20 to-emerald-400/30 blur-2xl" />
             <div className="overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-xl dark:border-slate-800 dark:bg-slate-900">
               <img
-                src="https://images.unsplash.com/photo-1502685104226-ee32372fef25?auto=format&fit=crop&w=900&q=70"
+                src="/scorpion.webp"
                 alt={`Portrait of ${personalInfo.name}`}
                 loading="lazy"
                 className="aspect-[4/5] h-full w-full object-cover"

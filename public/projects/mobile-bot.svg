@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" width="1200" height="750">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#1e293b"/>
+    </linearGradient>
+    <linearGradient id="brand" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4f46e5"/>
+      <stop offset="1" stop-color="#7c3aed"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="750" fill="url(#bg)"/>
+  <g font-family="ui-sans-serif, system-ui, sans-serif">
+    <text x="48" y="90" font-size="44" font-weight="700" fill="#e2e8f0">Mobile Bot</text>
+    <text x="48" y="130" font-size="20" fill="#94a3b8">Kotlin trading bot UI</text>
+  </g>
+  <g>
+    <rect x="470" y="170" width="260" height="520" rx="36" fill="#020617" stroke="#334155" stroke-width="2"/>
+    <rect x="490" y="200" width="220" height="460" rx="12" fill="#0f172a"/>
+    <rect x="540" y="186" width="120" height="22" rx="11" fill="#020617"/>
+    <circle cx="595" cy="197" r="5" fill="#1e293b"/>
+
+    <rect x="510" y="220" width="180" height="18" rx="9" fill="#475569"/>
+    <rect x="510" y="248" width="120" height="14" rx="7" fill="#334155"/>
+    <rect x="510" y="290" width="180" height="80" rx="12" fill="url(#brand)" opacity="0.85"/>
+    <text x="600" y="335" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif">+12.4%</text>
+    <text x="600" y="358" font-size="11" fill="#e0e7ff" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif">P&amp;L today</text>
+
+    <g font-family="ui-sans-serif, system-ui, sans-serif">
+      <text x="510" y="400" font-size="11" fill="#94a3b8">POSITIONS</text>
+      <rect x="510" y="412" width="180" height="28" rx="6" fill="#1e293b"/>
+      <rect x="510" y="446" width="180" height="28" rx="6" fill="#1e293b"/>
+      <rect x="510" y="480" width="180" height="28" rx="6" fill="#1e293b"/>
+    </g>
+    <g>
+      <rect x="510" y="540" width="56" height="56" rx="14" fill="#22c55e"/>
+      <rect x="572" y="540" width="56" height="56" rx="14" fill="#ef4444"/>
+      <rect x="634" y="540" width="56" height="56" rx="14" fill="#4f46e5"/>
+    </g>
+  </g>
+</svg>
